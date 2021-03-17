@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Weddings of Wexford</title>
 </head>
@@ -15,49 +15,93 @@
             <div id="hero-image">
     <!----------------------------------------Nav Bar - This was created using Bootstrap-->
                 <nav class="navbar navbar-style fixed-top navbar-light bg-light">
-                    <h4>Weddings of Wexford</h4>
-                    <div class="nav-links">
+                    <h4 id="wedding-head">Weddings of Wexford</h4>
+                    <div class="nav-links" id="wedding-nav">
                         <a class="navbar-brand" href="#home-info-offset">Home</a>
                         <a class="navbar-brand" href="#venues-info-offset">Venues</a>
                         <a class="navbar-brand" href="#contact-info-offset">Contact</a>
                     </div> 
                 </nav> 
     <!----------------------------------------Hero Image cover text-->
-                <div class="col heading">
+                <div class="col heading" id="hero-info">
                     <h1 class="name">Weddings of Wexford</h1>
                     <h2 class="title">Whats your dream wedding venue?</h2>
-                 </div>
+                    <!----------------------------------------Button created using Bootstrap-->
+                    <button type="button" class="btn btn-outline-primary">Venue</button>
+                </div>
             </div>
         </div> 
     </div>
     <!----------------------------------------Welcome-->
 
     <section>
-        Welcome
+        <div class="container-fluid">
+            <div class="row">
+                <div id="welcome-heading">
+                    <h2>Welcome</h2>
+                </div>
+                <div class="welcome">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!----------------------------------------Venues-->
 
     <section>
-        Venues
+       <div class="container-fluid venues-container">
+
+       </div>
     </section>
 
     <!----------------------------------------Local Facilities-->
 
     <section>
-        local facilities
+        <div class="container-fluid local-container">
+
+        </div>
     </section>
 
     <!----------------------------------------Contact-->
 
     <section>
-        contact
+        <div class="container contact-container">
+
+        </div>
     </section>
 
     <!----------------------------------------footer-->
 
-    <footer>
-        socials and copyright
+    <footer class="container-fluid ">
+        <div class="row">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                         <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
     
 </body>
