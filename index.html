@@ -14,12 +14,17 @@
         <div class="row">
             <div id="hero-image">
     <!----------------------------------------Nav Bar - This was created using Bootstrap-->
-                <nav class="navbar navbar-style fixed-top navbar-light bg-light">
-                    <h4 id="wedding-head">Weddings of Wexford</h4>
-                    <div class="nav-links" id="wedding-nav">
-                        <a class="navbar-brand" href="#home-info-offset">Home</a>
-                        <a class="navbar-brand" href="#venues-info-offset">Venues</a>
-                        <a class="navbar-brand" href="#contact-info-offset">Contact</a>
+                <nav class="navbar navbar-style fixed-top navbar-light bg-light navbar-expand-sm">
+                    <a class="navbar-brand" id="wedding-head" href="#" >Weddings of Wexford</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent wedding-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ml-1"><a class="nav-link" href="/">Home</a></li>
+                            <li class="nav-item ml-2"><a class="nav-link" href="/venues">Venues</a></li>
+                            <li class="nav-item ml-3"><a class="nav-link" href="/contact">Contact</a></li>
+                        </ul>
                     </div> 
                 </nav> 
     <!----------------------------------------Hero Image cover text-->
@@ -34,13 +39,11 @@
     </div>
     <!----------------------------------------Welcome-->
 
-    <section class="welcome">
-        <div class="container-fluid welcome-container">
-            <div>
-                <div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="welcome-container">
                     <h2>Welcome</h2>
-                </div>
-                <div>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
                         enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -56,39 +59,85 @@
     <!----------------------------------------Venues-->
 
     <section class="venues">
-       <div class="container-fluid venues-container">
-            <h2 class="text-uppercase">Venues</h2>
-            <div class="venue">
-                <p>Seafield Hotel and Spa</p>
-                <p>Seafield Hotel & Spa Resort is set on 160 acres of tranquil parkland including landscaped gardens designed by Diarmuid Gavin, just an hour from Dublin on the sands of Ballymoney Beach. Designed by Italian architect Francesco Beia, in a clean contemporary style which maximizes natural daylight and fully promotes the awe inspiring sea views. You will have plenty of choice to get the right setting for that perfect wedding photograph.</p>
+       <div class="container venues-container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Venues</h2>
+                </div>
             </div>
-            <div class="venue">
-                <p>Ashdown Park Hotel</p>
-                <p>Ashdown Park Hotel is great bla bla bla</p>
+            <div class="col-lg-4">
+                <div class="venue">
+                    <div>
+                        <img src="../images/Seafield.jpg" height=100 width=100>
+                    </div>
+                    <div class="venue-body">
+                        <p>Seafield Hotel and Spa</p>
+                        <p>Seafield Hotel & Spa Resort is set on 160 acres of tranquil parkland including landscaped gardens designed by Diarmuid Gavin, just an hour from Dublin on the sands of Ballymoney Beach. Designed by Italian architect Francesco Beia, in a clean contemporary style which maximizes natural daylight and fully promotes the awe inspiring sea views. You will have plenty of choice to get the right setting for that perfect wedding photograph.</p>
+                    </div>
+                </div>
             </div>
-            <div class="venue">
-                <p>Amber Springs Hotel</p>
-                <p>The Amber Springs in Gorey, County Wexford, is a magical venue to celebrate your wedding day. From the moment you arrive through the doors of our private entrance you will get a taste of the luxury and charm evident throughout our luxury wedding hotel Wexford.</p>
+            <div class="col-lg-4">
+                <div class="venue">
+                    <div>
+                        <img src="../images/Ashdown.jpg" height=100 width=100>
+                    </div>
+                    <div class="venue-body">
+                        <p>Ashdown Park Hotel</p>
+                        <p>Ashdown Park Hotel is great bla bla bla</p>
+                    </div>
+                </div>
             </div>
-            <div class="venue">
-                <p>Marlfield House</p>
-                <p>Marlfield House is long established as one of Ireland’s most luxurious country house hotels and among most popular exclusive and unique wedding venues in Ireland. The Bowe family and staff have been welcoming guests since 1978 and Marlfield is a proud members of Ireland’s Blue Book and Relais et Chateaux. Set in 36 acres of lush gardens and woodlands, it provides an exclusive and unique setting for a most romantic and memorable luxury country house wedding. Imagine having all of your family and friends with you in the privacy and exclusivity of your own manor house for the most important day of your life – Marlfield fulfils this dream and much more!</p>
+            <div class="col-lg-4">
+                <div class="venue">
+                    <div>
+                        <img src="../images/AmberSprings.jpg" height=100 width=100>
+                    </div>
+                    <div class="venue-body">
+                        <p>Amber Springs Hotel</p>
+                        <p>The Amber Springs in Gorey, County Wexford, is a magical venue to celebrate your wedding day. From the moment you arrive through the doors of our private entrance you will get a taste of the luxury and charm evident throughout our luxury wedding hotel Wexford.</p>
+                    </div>
+                </div>
             </div>
-            <div class="venue">
-                <p>Wells House and Gardens</p>
-                <p>A location steeped in history, beauty & romance. A future filled with life, love & laughter. In between lies one perfect, unforgettable day…your wedding! A picturesque Victorian house set in 460 acres of woodland & gardens, nestled away from the hustle & bustle of the world. Wells House & Gardens is a place to begin your new life together. A place to escape and experience a day like never before.</p>
+            <div class="col-lg-4">
+                <div class="venue">
+                    <div>
+                        <img src="../images/marlfield.jpg" height=100 width=100>
+                    </div>
+                    <div class="venue-body">
+                        <p>Marlfield House</p>
+                        <p>Marlfield House is long established as one of Ireland’s most luxurious country house hotels and among most popular exclusive and unique wedding venues in Ireland. The Bowe family and staff have been welcoming guests since 1978 and Marlfield is a proud members of Ireland’s Blue Book and Relais et Chateaux. Set in 36 acres of lush gardens and woodlands, it provides an exclusive and unique setting for a most romantic and memorable luxury country house wedding. Imagine having all of your family and friends with you in the privacy and exclusivity of your own manor house for the most important day of your life – Marlfield fulfils this dream and much more!</p>
+                    </div>
+                </div>
             </div>
-            <div class="venue">
-                <p>The Strand Cahore</p>
-                <p>The Strand Cahore, with its award-winning food, first class and friendly service, can host intimate weddings for 30 guests right up to a luxurious banquet for 180 guests, all year round. Our dedicated, professional and committed team will assist you in planning all aspects of your day and host a wedding day that couples and their guests will never forget.</p>
+            <div class="col-lg-4">
+                <div class="venue">
+                    <div>
+                        <img src="../images/WellsHouse.jpg" height=100 width=100>
+                    </div>
+                    <div class="venue-body">
+                        <p>Wells House and Gardens</p>
+                        <p>A location steeped in history, beauty & romance. A future filled with life, love & laughter. In between lies one perfect, unforgettable day…your wedding! A picturesque Victorian house set in 460 acres of woodland & gardens, nestled away from the hustle & bustle of the world. Wells House & Gardens is a place to begin your new life together. A place to escape and experience a day like never before.</p>
+                    </div>
+                </div>
             </div>
+            <div class="col-lg-4">
+                <div class="venue">
+                    <div>
+                        <img src="../images/Cahore.jpg" height=100 width=100>
+                    </div>
+                    <div class="venue-body">
+                        <p>The Strand Cahore</p>
+                        <p>The Strand Cahore, with its award-winning food, first class and friendly service, can host intimate weddings for 30 guests right up to a luxurious banquet for 180 guests, all year round. Our dedicated, professional and committed team will assist you in planning all aspects of your day and host a wedding day that couples and their guests will never forget.</p>
+                    </div>
+                </div>
+            </div>  
        </div>
     </section>
 
-    <!----------------------------------------Local Facilities-->
+    <!----------------------------------------Map-->
 
     <section>
-        <div class="container-fluid local-container">
+        <div class="container map-container">
 
         </div>
     </section>
@@ -103,7 +152,7 @@
 
     <!----------------------------------------footer-->
 
-    <footer class="container-fluid ">
+    <footer class="container-fluid footer-container ">
         <div class="row">
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
